@@ -18,3 +18,5 @@ const formSchema = yup.object().shape({
     reading: yup.boolean(),
     hiking: yup.boolean()
 })
+
+export default formSchema
